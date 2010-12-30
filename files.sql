@@ -245,8 +245,8 @@ insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('b
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('693c56037ef9a10718e7ad6b16fb66d4','JSMinNPP.dll','','2010-09-27','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('8e0e6dfc344c021f168b49f19027a36c','SourceSwitch.dll','','2010-11-09','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('966fc7fd3566d9e22825e79aecd6ea0d','SourceSwitchA.dll','','2010-11-09','ok');
-insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('d4710dea9acf119c2e8b6c7accabda98','JSLintNpp.dll','','2010-12-08','ok');
-insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('afbc59278cb52f61af20c2949854eca5','JSLintNppA.dll','','2010-12-08','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('40340584150fee5e345559c1d95e52ce','JSLintNpp.dll','','2010-12-08','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('6f62c6e3994efa5accd9bf7bcf88068b','JSLintNppA.dll','','2010-12-08','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('dcf5c719f058c7244910af815770a7f0','AutoSaveU.dll','','2010-12-11','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('f1b7e7842f58cd4c9ea2169c0e47a292','InsertLoremIpsumNppPlugin.dll','','2010-12-11','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('66fd7ed3794ec6244150dce023fc3d4d','InsertLoremIpsumNppPluginA.dll','','2010-12-11','ok');

@@ -419,18 +419,19 @@
 		</install>
 	</plugin>
 	<plugin name="JSLint">
-		<unicodeVersion>0.2.1</unicodeVersion>
-		<ansiVersion>0.2.1</ansiVersion>
+		<unicodeVersion>0.3.1</unicodeVersion>
+		<ansiVersion>0.3.1</ansiVersion>
 		<sourceUrl>https://sourceforge.net/projects/jslintnpp/</sourceUrl>
 		<author>Martin Vladic</author>
 		<description>A Notepad++ plugin that allows users to run JSLint (The JavaScript Code Quality Tool) against their open JavaScript files (more about JSLint at http://www.jslint.com/lint.html).</description>
+		<latestUpdate>- New option "Predefined (, separated)" added in Options dialog; this option should be used to specify the names of predefined global variables\n- Added toolbar button that opens Options dialog\n- JSLint script updated to version from 2010-12-23\n- List control now supports multiple selection (use Ctrl+A to select all lints)\n- Added clipboard copy for the selected lints (use Ctrl+C)</latestUpdate>
 		<install>
 			<unicode>
-				<download>http://sourceforge.net/projects/jslintnpp/files/0.2.1/JSLintNPP.0.2.1.zip/download</download>
+				<download>http://sourceforge.net/projects/jslintnpp/files/0.3.1/JSLintNPP.0.3.1.zip/download</download>
 				<copy from="JSLintNpp.dll" to="$PLUGINDIR$" validate="true"/>
 			</unicode>
 			<ansi>
-				<download>http://sourceforge.net/projects/jslintnpp/files/0.2.1/JSLintNPP_ANSI.0.2.1.zip/download</download>
+				<download>http://sourceforge.net/projects/jslintnpp/files/0.3.1/JSLintNPP_ANSI.0.3.1.zip/download</download>
 				<copy from="JSLintNppA.dll" to="$PLUGINDIR$" validate="true"/>
 			</ansi>
 		</install>
