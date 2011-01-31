@@ -257,8 +257,8 @@ insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('d
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('29a0172aeb43285f0edfa897eddf0311','SnippetPlusPlus.dll','','2010-12-11','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('95087394a64b24e74fc0720314267f3f','NppSnippets.dll','','2011-01-17','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('df0f3b4bc8af0c74898dbbb6a7030d89','TagsView.dll','','2011-01-17','ok');
-insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('bf79fd5887fed234a5acab81f1143465','JSLintNpp.dll','','2011-01-17','ok');
-insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('6f62c6e3994efa5accd9bf7bcf88068b','JSLintNppA.dll','','2011-01-17','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('3283e31360843cc6961b93595aa2c5ad','JSLintNpp.dll','','2011-01-31','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('40d484fa1ed493d68127fe95dc624410','JSLintNppA.dll','','2011-01-31','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('052edec735a6e4eca7f9209b5e390962','JSMinNPP.dll','','2011-01-17','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('2c86685b4a0431767913d9d9e8d7d4b0','JSMinNPP.dll','','2011-01-17','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('abdda2733752c4c958bda255d1b49814','WLangLexer.dll','','2011-01-17','ok');
