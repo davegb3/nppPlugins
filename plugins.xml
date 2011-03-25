@@ -510,20 +510,21 @@
 		</install>
 	</plugin>
 	<plugin name="JSON Viewer">
-		<unicodeVersion>1.1</unicodeVersion>
+		<unicodeVersion>1.15</unicodeVersion>
 		<homepage>http://nppjsonviewer.sourceforge.net/</homepage>
 		<description>A JSON viewer plugin for notepad++. Displays the selected JSON string in a tree view.</description>
 		<category>Web</category>
 		<author>Kapil Ratnani</author>
-		<latestUpdate>1. Fixed hotkey, now press CTRL+SHIFT+ALT+J(default).\n2. Marks error position in JSON</latestUpdate>
+		<latestUpdate>Fixed bug 3203739 "Unable to parse JSON Arrays"</latestUpdate>
 		<versions>
-			<version number="1.0" md5="39a208efce0900dfafc94c247220631d" comment="unicode" />
+			<version number="1.15" md5="4470434a3d0c9f3e2f4a18418d583c5d" comment="unicode" />
+			<version number="1.1" md5="39a208efce0900dfafc94c247220631d" comment="unicode" />
 		</versions>
 		<aliases>
 			<alias name="JSONViewer" />
 		</aliases>
 		<install>
-			<download>http://sourceforge.net/projects/nppjsonviewer/files/JSONViewer%20Unicode/NPPJSONViewer1_1.zip</download>
+			<download>http://sourceforge.net/projects/nppjsonviewer/files/JSONViewer%20Unicode/NPPJSONViewer1_15.zip</download>
 			<copy from="NPPJSONViewer\NPPJSONViewer.dll" to="$PLUGINDIR$" />
 			<copy from="NPPJSONViewer\README" to="$PLUGINDIR$\doc\NPPJSONViewer" />
 		</install>
