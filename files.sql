@@ -312,4 +312,6 @@ insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('3
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('40d484fa1ed493d68127fe95dc624410','JSLintNppA.dll','','2011-04-03','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('a86ed444a2bb156f763be87b33a115c4','PythonScript.dll','','2011-04-03','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('0d9e0f7909a8e31c21a390ee7b25f017','nppColdFusion.dll','','2011-04-03','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('EE006A4B4E1BEE7F962E59D773CF82AC','nppColdFusion.dll','','2011-04-05','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('B2232D645FAD62FD49D7D3EFCB7B5FB4','sqlite3.dll','','2011-04-05','ok');
 commit;

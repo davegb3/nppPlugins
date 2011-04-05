@@ -133,17 +133,21 @@
 		</install>
 	</plugin>
 	<plugin name="ColdFusion Lexer">
-		<unicodeVersion>0.6.0</unicodeVersion>
+		<unicodeVersion>0.6.2</unicodeVersion>
 		<author>bbluemel</author>
 		<description>Syntax highlighting, Call tips (Notepad++ 5.8.4 required) and autocomplete for the ColdFusion language</description>
+		<dependencies>
+			<plugin name="SQLite"/>
+		</dependencies>
 		<versions>
+			<version number="0.6.2" md5="EE006A4B4E1BEE7F962E59D773CF82AC" />
 			<version number="0.6.0" md5="0D9E0F7909A8E31C21A390EE7B25F017" />
 			<version number="0.5.3" md5="63e009627d1c07c2064db276c3a22bd3" />
 		</versions>
 		<install>
-			<download>http://www.nppcf.com/files/nppColdFusion-0.6.0beta.zip</download>
+			<download>http://www.nppcf.com/files/nppColdFusion-0.6.2beta.zip</download>
 			<copy from="nppColdFusion.dll" to="$PLUGINDIR$" validate="true"/>
-			<copy from="nppColdFusion.db3" to="$CONFIGDIR$" />
+			<copy from="Config\nppColdFusion.db3" to="$CONFIGDIR$" />
 			<copy from="Config\nppColdFusion.xml" to="$CONFIGDIR$" />
 		</install>
 	</plugin>
@@ -1467,6 +1471,20 @@
 			<copy from="SpellChecker.dll" to="$PLUGINDIR$" validate="true"/>
 		</install>
 	</plugin>
+	
+	<plugin name="SQLite">
+		<unicodeVersion>3.7.5</unicodeVersion>
+		<author>sqlite.org</author>
+		<description>SQLite 3.7.5</description>
+		<versions>
+			<version number="3.7.5" md5="B2232D645FAD62FD49D7D3EFCB7B5FB4" />
+		</versions>
+		<install>
+			<download>http://www.sqlite.org/sqlite-dll-win32-x86-3070500.zip</download>
+			<copy from="sqlite3.dll" to="$NPPDIR$" validate="true"/>
+		</install>
+	</plugin>
+	
 	<plugin name="Squiggly Spell">
 		<!-- Disabled until errors repaired <unicodeVersion>0.0.1</unicodeVersion> --> <description>Spellchecker tbat underlines misspelled words as you type.  Requires Aspell to be installed (http://aspell.net/win32).</description>
 		<sourceUrl>http://sourceforge.net/projects/squiggly/develop</sourceUrl>
