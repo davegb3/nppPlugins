@@ -314,4 +314,6 @@ insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('a
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('0d9e0f7909a8e31c21a390ee7b25f017','nppColdFusion.dll','','2011-04-03','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('EE006A4B4E1BEE7F962E59D773CF82AC','nppColdFusion.dll','','2011-04-05','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('B2232D645FAD62FD49D7D3EFCB7B5FB4','sqlite3.dll','','2011-04-05','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('65664479747F0A9048C7921F63D6AAAD','nppColdFusion.dll','','2011-07-10','ok');
+
 commit;
