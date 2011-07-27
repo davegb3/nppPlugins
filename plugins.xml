@@ -133,20 +133,21 @@
 		</install>
 	</plugin>
 	<plugin name="ColdFusion Lexer">
-		<unicodeVersion>0.7</unicodeVersion>
+		<unicodeVersion>0.7.1</unicodeVersion>
 		<author>bbluemel</author>
 		<description>Syntax highlighting, Call tips (Notepad++ 5.8.4 required) and autocomplete for the ColdFusion language</description>
 		<dependencies>
 			<plugin name="SQLite"/>
 		</dependencies>
 		<versions>
+			<version number="0.7.1" md5="2D4153ACD2E7EAE7C5AA398597C626AD" />
 			<version number="0.7" md5="65664479747F0A9048C7921F63D6AAAD" />
 			<version number="0.6.2" md5="EE006A4B4E1BEE7F962E59D773CF82AC" />
 			<version number="0.6.0" md5="0D9E0F7909A8E31C21A390EE7B25F017" />
 			<version number="0.5.3" md5="63e009627d1c07c2064db276c3a22bd3" />
 		</versions>
 		<install>
-			<download>http://www.nppcf.com/files/nppColdFusion-0.7.zip</download>
+			<download>http://www.nppcf.com/files/nppColdFusion-0.7.1.zip</download>
 			<copy from="nppColdFusion.dll" to="$PLUGINDIR$" validate="true"/>
 			<copy from="Config\nppColdFusion.db3" to="$CONFIGDIR$" />
 			<copy from="Config\nppColdFusion.xml" to="$CONFIGDIR$" />
