@@ -510,13 +510,14 @@
 		</install>
 	</plugin>
 	<plugin name="JSON Viewer">
-		<unicodeVersion>1.15</unicodeVersion>
+		<unicodeVersion>1.16</unicodeVersion>
 		<homepage>http://nppjsonviewer.sourceforge.net/</homepage>
 		<description>A JSON viewer plugin for notepad++. Displays the selected JSON string in a tree view.</description>
 		<category>Web</category>
 		<author>Kapil Ratnani</author>
-		<latestUpdate>Fixed bug 3203739 "Unable to parse JSON Arrays"</latestUpdate>
+		<latestUpdate>1. Fixed bug - 3305433 do not find error on second try and do not build tree\n2. Fixed a memory leak..was not deallocating memory allocated to json strings</latestUpdate>
 		<versions>
+                        <version number="1.16" md5="2d461dfde4d9eb76246576a95f27a601" comment="unicode" />
 			<version number="1.15" md5="4470434a3d0c9f3e2f4a18418d583c5d" comment="unicode" />
 			<version number="1.1" md5="39a208efce0900dfafc94c247220631d" comment="unicode" />
 		</versions>
@@ -524,7 +525,7 @@
 			<alias name="JSONViewer" />
 		</aliases>
 		<install>
-			<download>http://sourceforge.net/projects/nppjsonviewer/files/JSONViewer%20Unicode/NPPJSONViewer1_15.zip</download>
+			<download>http://sourceforge.net/projects/nppjsonviewer/files/JSONViewer%20Unicode/NPPJSONViewer1_16.zip</download>
 			<copy from="NPPJSONViewer\NPPJSONViewer.dll" to="$PLUGINDIR$" />
 			<copy from="NPPJSONViewer\README" to="$PLUGINDIR$\doc\NPPJSONViewer" />
 		</install>
