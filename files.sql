@@ -297,5 +297,5 @@ insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('2
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('a32322665d39998eeef9abaa37ea7217','FingerText.dll','','2011-03-06','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('7f39133444ffbff0c619a09a0b0c38ce','AnalysePlugin.dll','','2011-03-06','ok');
 insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('0cfe3e6182add839d2748a3986b8c5ab','ctags.exe','','2011-03-06','ok');
-insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('4470434a3d0c9f3e2f4a18418d583c5d','NPPJSONViewer.dll','','2011-27-06','ok');
+insert into FileHash(md5sum, filename, pluginName, addedDate, status) values ('2d461dfde4d9eb76246576a95f27a601','NPPJSONViewer.dll','','2011-01-08','ok');
 commit;
