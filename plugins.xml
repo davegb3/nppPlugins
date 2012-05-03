@@ -1165,12 +1165,12 @@
 		</install>
 	</plugin>
 	<plugin name="RainLexer">
-		<unicodeVersion>1.0.1</unicodeVersion>
+		<unicodeVersion>1.1.0</unicodeVersion>
 		<author>Birunthan Mohanathas</author>
-		<description>A plugin for Notepad++ 5.8.x that allows proper syntax highlighting for Rainmeter .ini skin files.</description>
-		<homepage>http://rainmeter.net/forum/viewtopic.php?f=15&amp;t=6336</homepage>
+		<description>A plugin for Notepad++ 5.8 and higher that allows proper syntax highlighting for Rainmeter .ini skin files.</description>
+		<homepage>http://rainlexer.googlecode.com</homepage>
 		<install>
-			<download>http://rainlexer.googlecode.com/files/RainLexer101.zip</download>
+			<download>http://rainlexer.googlecode.com/files/RainLexer110.zip</download>
 			<copy from="AutoComplete\WithEquals\Rainmeter.xml" to="$PLUGINDIR$\APIs" backup="true" />
 			<copy from="InstFiles\RainLexer.xml" to="$CONFIGDIR$" />
 			<copy from="InstFiles\RainLexer.dll" to="$PLUGINDIR$" validate="true" />
