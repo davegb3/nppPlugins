@@ -39,7 +39,7 @@
 		<sourceUrl/>
 		<latestUpdate>adds a requested functionality to ignore files larger than a specified size.</latestUpdate>
 		<install>
-			<download>http://sites.google.com/site/fstellari/cab/AutoSave_dll_1v30.zip?attredirects=0</download>
+			<download>http://sites.google.com/site/fstellari/nppplugins/AutoSave_dll_1v30.zip?attredirects=0</download>
 			<ansi>
 				<copy from="AutoSaveA.dll" to="$PLUGINDIR$" validate="true"/>
 			</ansi>
